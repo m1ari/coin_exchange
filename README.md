@@ -23,10 +23,10 @@ Or install it yourself as:
 To get the current details for a market ...
 
 The V1 API currently has four calls
-[x] getmarkets (results will be cached as they don't often change)
-[ ] getmarketsummaries
-[ ] getmarketsummary
-[ ] getorderbook
+- [x] getmarkets (results will be cached as they don't often change)
+- [ ] getmarketsummaries
+- [ ] getmarketsummary
+- [ ] getorderbook
 
 In future it'll be possible to cache other calls and the cache time will be adjustable
 

@@ -1,5 +1,10 @@
 require "coin_exchange/version"
 
 module CoinExchange
-  # Your code goes here...
+  autoload :Client,   'coin_exchange/client'
+
+  def self.client
+    @client ||= Client.new
+  end
+
 end
